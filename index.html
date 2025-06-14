@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Stories</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<script src="myScript.js"></script>
+<body>
+  <header>
+    <h1>Creative Writings of Ernest Zhang</h1>
+  </header>
+  <main>
+    <div class = "left-column-text" id = Introduction>
+      <span>Hello. Feel free to browse my stories. </span>
+      <h3></h3>
+      <p>contact me: ernesthezhang@gmail.com
+        join my mailing list:
+        <a>here</a>
+        to visit my portfolio:
+        <a>here</a>
+        my reddit account:
+        <a>here</a>
+      </p>
+
+    </div>
+    <div class="folder-row">
+      <div class="story-block">
+        <div class="folder-block" onclick="toggleExpand(this)">
+          <div class="folder-tab"></div>
+          <div class="folder-body">
+              <span>Ziva's Imprisonment</span>
+          </div>
+        </div>
+        <div class="extra-links">
+          <a onclick="transitionToPage('ZI-1.html')">Chapter 1</a>
+          <a onclick="transitionToPage('ZI-2.html')">Chapter 2</a>
+          <a onclick="transitionToPage('ZI-3.html')">Chapter 3</a>
+          <a onclick="transitionToPage('ZI-4.html')">Chapter 4</a>
+        </div>
+      </div>
+    </div>
+    <div class="folder-row">
+      <div class="story-block">
+        <div class="folder-block" onclick="toggleExpand(this)">
+          <div class="folder-tab"></div>
+          <div class="folder-body">
+            <span>Meeting an Alien</span>
+          </div>
+        </div>
+        <div class="extra-links">
+          <a onclick="transitionToPage('MA-1.html')">Chapter 1</a>
+          <a onclick="transitionToPage('MA-2.html')">Chapter 2</a>
+          <a onclick="transitionToPage('MA-3.html')">Chapter 3</a>
+          <a onclick="transitionToPage('MA-4.html')">Chapter 4</a>
+          <a onclick="transitionToPage('MA-5.html')">Chapter 5</a>
+          <a onclick="transitionToPage('MA-6.html')">Chapter 6</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Ernest Zhang</p>
+  </footer>
+</body>
+</html>
